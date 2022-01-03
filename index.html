@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- font awesome icon -->
+     
+    <!-- gridlex flexbox grid---------------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    <!-- font awesome icon--------------------------- -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-<!-- header banner --------------------------->
-        <header class="padded">
+        <!-- header banner --------------------------->
+        <header class="padded grid">
+            <div class="col-12">
             <h3>sleep like a baby</h3>
             <h1>the ultimate mattress solution</h1>
+            </div>
         </header>
-<!-- gallery section------------------------- -->
-        <section>
-            <div class="padded">
+        <!-- gallery section------------------------- -->
+        <section class="grid">
+            <div class="padded col-6">
                 <h2>built to last a lifetime</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum consequatur eligendi. Dicta quidem corrupti quibusdam ad harum nesciunt vel nisi commodi sit explicabo ipsum, quod dolore accusantium optio culpa!</p>
             </div>
-            <div class="bg-image">
+            <div class="bg-image col-6">
                 <!-- background image bed -->
             </div>
-            <div class="bg-image">
+            <div class="bg-image col-6">
                 <!-- background image dog sleeping -->
             </div>
-            <div class="padded">
+            <div class="padded col-6">
                 <h2>so soft you'll melt</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolores laudantium exercitationem ea voluptate doloremque sequi non facere repudiandae deserunt, fugit eum, at nobis atque, sed delectus accusamus esse maxime?</p>
             </div>
         </section>
     <!-- feature icon grid -->
-        <section class="padded">
-            <div class="padded-sm">
+        <section class="padded grid bg-dark">
+            <div class="padded-sm col-12">
                 <h2>features you will love</h2>
             </div>
-            <div class="padded-sm">
+            <div class="padded-sm col-3">
                 <i class="fa-solid fa-cloud-moon"></i>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id mollitia aperiam voluptatibus fugiat recusandae aliquam, labore atque similique qui culpa porro itaque, minima non, deleniti adipisci dolore dolores vitae dolorem.</p>
             </div>
-            <div class="padded-sm">
+            <div class="padded-sm col-3">
                 <i class="fa-solid fa-cloud-moon"></i>
                 <p>Lorem ipsum dolor sit amet consectetur aadipisicing elit. Id mollitia aperiam voluptatibus fugiat recusandae aliquam, labore atque similique qui culpa porro itaque, minima non, deleniti adipisci dolore dolores vitae dolorem.
             </div>
-            <div class="padded-sm">
+            <div class="padded-sm col-3">
                 <i class="fa-solid fa-cloud-moon"></i>
                 <p>Lorem ipsum dolor sit amet consectetur aadipisicing elit. Id mollitia aperiam voluptatibus fugiat recusandae aliquam, labore atque similique qui culpa porro itaque, minima non, deleniti adipisci dolore dolores vitae dolorem.
             </div>
-            <div class="padded-sm">
+            <div class="padded-sm col-3">
                 <i class="fa-solid fa-cloud-moon"></i>
                 <p>Lorem ipsum dolor sit amet consectetur aadipisicing elit. Id mollitia aperiam voluptatibus fugiat recusandae aliquam, labore atque similique qui culpa porro itaque, minima non, deleniti adipisci dolore dolores vitae dolorem.
             </div>
@@ -57,29 +62,29 @@
        </h3>
     </section>
     <!-- testimonial section-------------- -->
-    <section class="padded">
-        <div>
+    <section class="padded grid">
+        <div class="col-1" >
             <span>"</span>
         </div>
-        <div>
-            <p>I'm never experienced sleep like this. Omg I really love this mattress. I want to buy one for every member of my family</p>
+        <div class="col-10">
+            <p>I've never experienced sleep like this. Omg I really love this mattres I want to buy one for every member of my family</p>
             <p>A very happy customer</p>
         </div>
-        <div>
+        <div class="col-1">
             <span>"</span>
         </div>
     </section>
 <!-- footer section--------------------------------------------- -->
-    <footer class="padded">
-    <div>
-        <h2>Let's connect</h2>
+    <footer class="padded grid-spaceBetween bg-dark">
+    <div class="col-4">
+        <h2>let's connect</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore, minima porro natus nulla impedit necessitatibus rem! Nihil laboriosam voluptas minus architecto, exercitationem nobis mollitia culpa, repellendus natus iusto cum?</p>
     </div>
-    <div>
-        <p>call: 415 768 0921</p>
-        <p>Email: hellotogether.com</p>
-        <p>Store: 456 Main st, Maine</p>
-        <p>Instagram: gthesleepco</p>
+    <div class="col-5">
+        <p>call: 04 555 5555</p>
+        <p>Email: hello@together.com</p>
+        <p>Store: 55 Main st, Chicago</p>
+        <p>Instagram: @gthesleepco</p>
     </div>
     </footer>
 
